@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './App.css';
-import {Todolist} from './Todolist';
+import {TaskType, Todolist} from './Todolist';
 import {v1} from 'uuid';
+import {AddItemForm} from "./AddItemForm";
 
 export type FilterValuesType = "all" | "active" | "completed";
 type TodolistType = {
@@ -9,6 +10,11 @@ type TodolistType = {
     title: string
     filter: FilterValuesType
 }
+
+type TaskStateType = {
+    [key:string] : Array<TaskType>
+}
+
 
 function App() {
 
@@ -59,15 +65,15 @@ function App() {
 
     const tododolistId1 = v1()
     const tododolistId2 = v1()
-    const tododolistId3 = v1()
+
 
     const [todolists, setTodolists] = useState<Array<TodolistType>>([
         {id: tododolistId1, title: "What to Learn", filter: 'active'},
         {id: tododolistId2, title: "What to Buy", filter: 'all'},
-        {id: tododolistId3, title: "What to Buy", filter: 'all'}
+
     ])
 
-    const [tasksObj, setTasks] = useState({
+    const [tasksObj, setTasks] = useState<TaskStateType>({
         [tododolistId1]: [
             {id: v1(), title: "HTML&CSS", isDone: true},
             {id: v1(), title: "JS", isDone: true},
@@ -81,21 +87,24 @@ function App() {
             {id: v1(), title: "ReactJS", isDone: false},
             {id: v1(), title: "Rest API", isDone: false},
             {id: v1(), title: "GraphQL", isDone: false},
-        ],
-        [tododolistId3]: [
-            {id: v1(), title: "HTML&CSS", isDone: true},
-            {id: v1(), title: "JS", isDone: true},
-            {id: v1(), title: "ReactJS", isDone: false},
-            {id: v1(), title: "Rest API", isDone: false},
-            {id: v1(), title: "GraphQL", isDone: false},
         ]
     })
 
-
-
+const addTodolist = (title:string) => {
+         let todolist: TodolistType = {
+             id: v1(),
+             title: title,
+             filter: "all"
+         }
+        setTodolists([todolist, ...todolists])
+        setTasks({...tasksObj, [todolist.id]: []})
+    }
     return (
 
         <div className="App">
+
+            <AddItemForm addItem={addTodolist}/>
+
             {
                 todolists.map((tl) => {
 
