@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99a2904-bbac-471d-957f-a6e3d14a8cd0" name="Changes" comment="EditableSpan for Tasks and Todolist Title">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/src/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/src/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/src/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDL_04/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TDL_04/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="f99a2904-bbac-471d-957f-a6e3d14a8cd0" name="Changes" comment="transfer to martial design" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/_IT_INC/TDL_HOMEWORKS",
+    "last_opened_file_path": "F:/_IT_INC/hws2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +80,7 @@
       <workItem from="1675156474708" duration="56000" />
       <workItem from="1675786739051" duration="7530000" />
       <workItem from="1675796446900" duration="52000" />
-      <workItem from="1676384832508" duration="10741000" />
+      <workItem from="1676384832508" duration="10805000" />
     </task>
     <task id="LOCAL-00001" summary="add new TDL">
       <created>1675156520892</created>
@@ -119,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675796367785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="transfer to martial design">
+      <created>1676403533730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676403533730</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +140,8 @@
     <MESSAGE value="add Input Component" />
     <MESSAGE value="create EditableSpan.tsx" />
     <MESSAGE value="EditableSpan for Tasks and Todolist Title" />
-    <option name="LAST_COMMIT_MESSAGE" value="EditableSpan for Tasks and Todolist Title" />
+    <MESSAGE value="transfer to martial design" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfer to martial design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

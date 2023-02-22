@@ -18,7 +18,7 @@ import {
 import {Menu} from "@material-ui/icons";
 
 export type FilterValuesType = "all" | "active" | "completed";
-type TodolistType = {
+export type TodolistType = {
     id: string
     title: string
     filter: FilterValuesType
@@ -36,7 +36,6 @@ function App() {
         tasksObj[todolistID] = filteredTasks
         setTasks({...tasksObj});
     }
-
     function removeTodolist(todolistID: string) {
         let removedTDL = todolists.filter((tdl) => tdl.id !== todolistID)
         setTodolists(removedTDL)
@@ -45,7 +44,6 @@ function App() {
 
 
     }
-
     function addTask(title: string, todolistID: string) {
         let task = {id: v1(), title: title, isDone: false};
         const tasks = tasksObj[todolistID]
@@ -53,7 +51,6 @@ function App() {
         tasksObj[todolistID] = newTasks
         setTasks({...tasksObj});
     }
-
     function changeStatus(taskId: string, isDone: boolean, todolistID: string) {
         const tasks = tasksObj[todolistID]
         let task = tasks.find(t => t.id === taskId);
@@ -65,7 +62,6 @@ function App() {
 
 
     }
-
     function changeTaskTitle(taskId: string, NewTitle: string, todolistID: string) {
         const tasks = tasksObj[todolistID]
         let task = tasks.find(t => t.id === taskId);
@@ -77,7 +73,6 @@ function App() {
 
 
     }
-
     function changeTodolistTitle(newTitle: string, todolistID: string) {
         let todolist = todolists.find(tl => tl.id === todolistID)
         if (todolist) {
@@ -85,7 +80,6 @@ function App() {
             setTodolists([...todolists])
         }
     }
-
     function changeFilter(value: FilterValuesType, todolistID: string) {
         const filteredTDL = todolists.find(tl => tl.id === todolistID)
         if (filteredTDL) {
@@ -97,13 +91,11 @@ function App() {
 
     const tododolistId1 = v1()
     const tododolistId2 = v1()
-
     const [todolists, setTodolists] = useState<Array<TodolistType>>([
         {id: tododolistId1, title: "What to Learn", filter: 'active'},
         {id: tododolistId2, title: "What to Buy", filter: 'all'},
 
     ])
-
     const [tasksObj, setTasks] = useState<TaskStateType>({
         [tododolistId1]: [
             {id: v1(), title: "HTML&CSS", isDone: true},
@@ -130,6 +122,7 @@ function App() {
         setTodolists([todolist, ...todolists])
         setTasks({...tasksObj, [todolist.id]: []})
     }
+
     return (
 
         <div className="App">
