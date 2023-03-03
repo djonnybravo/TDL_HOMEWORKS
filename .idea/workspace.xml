@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99a2904-bbac-471d-957f-a6e3d14a8cd0" name="Changes" comment="transfer to martial design" />
+    <list default="true" id="63141fe5-734f-4701-9464-6c1e87000ad2" name="Changes" comment="add reducers and train Test Driven Development" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2KUmaquK2GRlD9Vg86FcI2adz1q" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2M03z1AIPFJRGOxdWu1Ug5vMUwq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +31,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -36,121 +39,130 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "F:/_IT_INC/TDL_HOMEWORKS/TDL_04/node_modules/react-scripts",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "F:\\_IT_INC\\TDL_HOMEWORKS\\TDL_04\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="es6.move.members.recent.items">
-      <recent name="F:\_IT_INC\TDL_HOMEWORKS\TDL_04\src\EditableSpan.tsx" />
-      <recent name="F:\_IT_INC\TDL_HOMEWORKS\TDL_04\src\AddItemForm.tsx" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\_IT_INC\TDL_HOMEWORKS\TDL_04\src\state" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/TDL_04/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+  <component name="RunManager" selected="Jest.correct todolist should be removed (1)">
+    <configuration name="correct todolist should be removed (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" />
+      <test-names>
+        <test-name value="correct todolist should be removed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="correct todolist should be removed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/todolists-reducertest.ts" />
+      <test-names>
+        <test-name value="correct todolist should be removed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="user reducer should change name of user" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/user-reducer.test.ts" />
+      <test-names>
+        <test-name value="user reducer should change name of user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="user reducer should increment only age" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/user-reducer.test.ts" />
+      <test-names>
+        <test-name value="user reducer should increment only age" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="user reducer should increment only childrenCount" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/state/user-reducer.test.ts" />
+      <test-names>
+        <test-name value="user reducer should increment only childrenCount" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.correct todolist should be removed (1)" />
+        <item itemvalue="Jest.correct todolist should be removed" />
+        <item itemvalue="Jest.user reducer should change name of user" />
+        <item itemvalue="Jest.user reducer should increment only childrenCount" />
+        <item itemvalue="Jest.user reducer should increment only age" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f99a2904-bbac-471d-957f-a6e3d14a8cd0" name="Changes" comment="" />
-      <created>1674037603014</created>
+      <changelist id="63141fe5-734f-4701-9464-6c1e87000ad2" name="Changes" comment="" />
+      <created>1676890930611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674037603014</updated>
-      <workItem from="1674037605822" duration="605000" />
-      <workItem from="1674043806469" duration="75000" />
-      <workItem from="1674305725498" duration="6244000" />
-      <workItem from="1674316875448" duration="12000" />
-      <workItem from="1674913018872" duration="6465000" />
-      <workItem from="1675156474708" duration="56000" />
-      <workItem from="1675786739051" duration="7530000" />
-      <workItem from="1675796446900" duration="52000" />
-      <workItem from="1676384832508" duration="10805000" />
+      <updated>1676890930611</updated>
+      <workItem from="1676890931733" duration="3444000" />
+      <workItem from="1677067077849" duration="242000" />
+      <workItem from="1677067333474" duration="5136000" />
+      <workItem from="1677097036385" duration="2808000" />
+      <workItem from="1677100460351" duration="6000" />
     </task>
-    <task id="LOCAL-00001" summary="add new TDL">
-      <created>1675156520892</created>
+    <task id="LOCAL-00001" summary="add reducers and train Test Driven Development">
+      <created>1677100426480</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1675156520892</updated>
+      <updated>1677100426480</updated>
     </task>
-    <task id="LOCAL-00002" summary="add Input Component">
-      <created>1675789732216</created>
+    <task id="LOCAL-00002" summary="add reducers and train Test Driven Development">
+      <created>1677100442980</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1675789732216</updated>
+      <updated>1677100442980</updated>
     </task>
-    <task id="LOCAL-00003" summary="create EditableSpan.tsx">
-      <created>1675790051242</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1675790051242</updated>
-    </task>
-    <task id="LOCAL-00004" summary="EditableSpan for Tasks and Todolist Title">
-      <created>1675796367785</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1675796367785</updated>
-    </task>
-    <task id="LOCAL-00005" summary="transfer to martial design">
-      <created>1676403533730</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676403533730</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add new TDL" />
-    <MESSAGE value="add Input Component" />
-    <MESSAGE value="create EditableSpan.tsx" />
-    <MESSAGE value="EditableSpan for Tasks and Todolist Title" />
-    <MESSAGE value="transfer to martial design" />
-    <option name="LAST_COMMIT_MESSAGE" value="transfer to martial design" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/TDL_04/src/AddItemForm.tsx</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add reducers and train Test Driven Development" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reducers and train Test Driven Development" />
   </component>
 </project>
